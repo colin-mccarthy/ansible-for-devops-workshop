@@ -1,9 +1,17 @@
 [nodes]
-10.0.0.2
-10.0.0.3
-10.0.0.4
-10.0.0.5
+dev_web1 ansible_host=172.16.177.254
+dev_web2 ansible_host=172.16.139.244
+prod_web1 ansible_host=172.16.136.109
+prod_web2 ansible_host=172.16.219.171
+
+
 
 [sitea]
-10.0.0.4
-10.0.0.5
+dev_web1 ansible_host=172.16.177.254
+dev_web2 ansible_host=172.16.139.244
+
+
+
+[siteb]
+prod_web1 ansible_host=172.16.136.109
+prod_web2 ansible_host=172.16.219.171
